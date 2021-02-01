@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-02-01-hello-world/",
+    "title": "hello world",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Helen Arnold",
+        "url": "github.com/dubbelshot/handbook"
+      }
+    ],
+    "date": "2021-02-01",
+    "categories": [],
+    "contents": "\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-01T21:40:51+11:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to the Data Practitioner's Handbook!",
     "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
@@ -13,7 +30,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-01T21:21:51+11:00",
-    "input_file": "welcome.utf8.md"
+    "last_modified": "2021-02-01T21:40:28+11:00",
+    "input_file": {}
   }
 ]

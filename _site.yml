@@ -1,7 +1,8 @@
 name: "handbook"
-title: "My Blog"
+title: "The Data Practitioner's Handbook"
 description: |
-  My Blog
+  A short primer on just about everything.
+base_url: https://dubbelshot.github.io/handbook/
 output_dir: "docs"
 navbar:
   right:
