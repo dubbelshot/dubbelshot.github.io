@@ -1,6 +1,5 @@
 ---
-title: "My Blog"
+title: "The Data Practitioner's Handbook"
 site: distill::distill_website
 listing: posts
-layout: default
 ---
