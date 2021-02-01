@@ -1,11 +1,19 @@
 {
   "articles": [
     {
+      "path": "about.html",
+      "title": "Why write a blog about data?",
+      "description": "Some additional details about the blog",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-02-02T00:53:09+11:00"
+    },
+    {
       "path": "index.html",
       "title": "My Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-02-02T00:52:16+11:00"
+      "last_modified": "2021-02-02T00:53:10+11:00"
     }
   ],
   "collections": ["posts/posts.json"]
