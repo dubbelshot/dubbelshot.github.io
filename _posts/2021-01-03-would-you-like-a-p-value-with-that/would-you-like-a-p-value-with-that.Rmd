@@ -4,7 +4,7 @@ description: |
   What's a p-value anyway? And why do we need them?
 author:
   - name: Helen Arnold
-date: 02-02-2021
+date: Jan 03, 2021
 categories:
   - statistics
   - intro

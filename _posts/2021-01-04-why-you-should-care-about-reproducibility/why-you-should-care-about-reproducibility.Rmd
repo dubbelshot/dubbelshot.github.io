@@ -1,0 +1,20 @@
+---
+title: "Why you should care about reproducibility"
+description: |
+  How two revered economists really stuffed up.
+author:
+  - name: Helen Arnold
+date: Jan 04, 2021
+categories:
+  - economics
+  - intro
+creative_commons: CC BY
+output:
+  distill::distill_article:
+    self_contained: false 
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

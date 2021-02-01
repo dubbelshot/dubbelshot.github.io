@@ -4,7 +4,7 @@ description: |
   Welcome to the Data Practitioner's Handbook - a short primer on everything data.
 author:
   - name: Helen Arnold
-date: 02-01-2021
+date: Jan 01, 2021
 categories:
   - musings
 creative_commons: CC BY
