@@ -2,7 +2,7 @@ name: "handbook"
 title: "The Data Practitioner's Handbook"
 description: |
   A short primer on just about everything.
-base_url: https://dubbelshot.github.io/handbook/
+base_url: https://dubbelshot.github.io/
 collections:
   posts:
     disqus: the-data-practitioners-handbook
