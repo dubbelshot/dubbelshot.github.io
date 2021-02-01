@@ -1,5 +1,45 @@
 [
   {
+    "path": "posts/2021-02-01-why-its-ok-to-be-average/",
+    "title": "Why it's OK to be average",
+    "description": "I once spent 30 minutes on the phone trying to explain to someone why I wasn't worried that half of all school students scored below average in reading literacy. This post explains why.",
+    "author": [
+      {
+        "name": "Helen Arnold",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-02",
+    "categories": [
+      "portfolios",
+      "dygraphs"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-02T00:05:43+11:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-02-02-would-you-like-a-p-value-with-that/",
+    "title": "Would you like a p-value with that?",
+    "description": "What's a p-value anyway? And why do we need them?",
+    "author": [
+      {
+        "name": "Helen Arnold",
+        "url": {}
+      }
+    ],
+    "date": "2021-02-02",
+    "categories": [
+      "portfolios",
+      "dygraphs"
+    ],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-02-02T00:05:38+11:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-02-01-hello-world/",
     "title": "hello world",
     "description": "Welcome to the Data Practitioner's Handbook - a short primer on everything data.",

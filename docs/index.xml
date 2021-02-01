@@ -7,7 +7,27 @@
     <description>A short primer on just about everything.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 01 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Why it's OK to be average</title>
+      <dc:creator>Helen Arnold</dc:creator>
+      <link>https://dubbelshot.github.io/handbook/posts/2021-02-01-why-its-ok-to-be-average</link>
+      <description>I once spent 30 minutes on the phone trying to explain to someone why I wasn't worried that half of all school students scored below average in reading literacy. This post explains why.</description>
+      <category>portfolios</category>
+      <category>dygraphs</category>
+      <guid>https://dubbelshot.github.io/handbook/posts/2021-02-01-why-its-ok-to-be-average</guid>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Would you like a p-value with that?</title>
+      <dc:creator>Helen Arnold</dc:creator>
+      <link>https://dubbelshot.github.io/handbook/posts/2021-02-02-would-you-like-a-p-value-with-that</link>
+      <description>What's a p-value anyway? And why do we need them?</description>
+      <category>portfolios</category>
+      <category>dygraphs</category>
+      <guid>https://dubbelshot.github.io/handbook/posts/2021-02-02-would-you-like-a-p-value-with-that</guid>
+      <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>hello world</title>
       <dc:creator>Helen Arnold</dc:creator>

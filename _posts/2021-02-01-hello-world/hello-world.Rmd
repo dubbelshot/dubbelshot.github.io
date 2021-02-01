@@ -14,8 +14,6 @@ output:
     self_contained: false 
 ---
 
-test
-
 ```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'} 
 knitr::include_graphics("birds.jpg")
 
