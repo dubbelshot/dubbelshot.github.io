@@ -6,8 +6,7 @@ author:
   - name: Helen Arnold
 date: 02-01-2021
 categories:
-  - portfolios
-  - dygraphs
+  - musings
 creative_commons: CC BY
 output:
   distill::distill_article:
