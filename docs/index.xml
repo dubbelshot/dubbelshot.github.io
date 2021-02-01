@@ -12,18 +12,12 @@
       <title>hello world</title>
       <dc:creator>Helen Arnold</dc:creator>
       <link>https://dubbelshot.github.io/handbook/posts/2021-02-01-hello-world</link>
-      <description>A short description of the post.</description>
+      <description>Welcome to the Data Practitioner's Handbook - a short primer on everything data.</description>
+      <category>portfolios</category>
+      <category>dygraphs</category>
       <guid>https://dubbelshot.github.io/handbook/posts/2021-02-01-hello-world</guid>
       <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Welcome to the Data Practitioner's Handbook!</title>
-      <dc:creator>Helen Arnold</dc:creator>
-      <link>https://dubbelshot.github.io/handbook/posts/welcome</link>
-      <description>Welcome to our new blog, My Blog. We hope you enjoy 
-reading what we have to say!</description>
-      <guid>https://dubbelshot.github.io/handbook/posts/welcome</guid>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://dubbelshot.github.io/handbook/posts/2021-02-01-hello-world/birds.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>

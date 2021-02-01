@@ -1,5 +1,5 @@
 ---
-title: "About this blog"
+title: "Why write a blog about data?"
 description: |
   Some additional details about the blog
 ---

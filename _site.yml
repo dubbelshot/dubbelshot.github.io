@@ -3,6 +3,10 @@ title: "The Data Practitioner's Handbook"
 description: |
   A short primer on just about everything.
 base_url: https://dubbelshot.github.io/handbook/
+collections:
+  posts:
+    disqus: the-data-practitioners-handbook
+    share: [facebook, twitter, linkedin]
 output_dir: "docs"
 navbar:
   right:
@@ -10,4 +14,6 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
-output: distill::distill_article
+output: 
+  distill::distill_article:
+     css: styles.css

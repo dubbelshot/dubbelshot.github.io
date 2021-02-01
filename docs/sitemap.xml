@@ -2,11 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://dubbelshot.github.io/handbook/about.html</loc>
-    <lastmod>2021-02-01T21:20:28+11:00</lastmod>
-  </url>
-  <url>
-    <loc>https://dubbelshot.github.io/handbook/</loc>
-    <lastmod>2021-02-01T21:45:37+11:00</lastmod>
+    <lastmod>2021-02-01T23:37:52+11:00</lastmod>
   </url>
   <url>
     <loc>https://dubbelshot.github.io/handbook/</loc>
@@ -14,10 +10,6 @@
   </url>
   <url>
     <loc>https://dubbelshot.github.io/handbook/posts/2021-02-01-hello-world/</loc>
-    <lastmod>2021-02-01T21:47:23+11:00</lastmod>
-  </url>
-  <url>
-    <loc>https://dubbelshot.github.io/handbook/posts/welcome/</loc>
-    <lastmod>2021-02-01T21:40:28+11:00</lastmod>
+    <lastmod>2021-02-01T23:45:37+11:00</lastmod>
   </url>
 </urlset>
