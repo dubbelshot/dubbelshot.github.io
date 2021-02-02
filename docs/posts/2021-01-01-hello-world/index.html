@@ -89,7 +89,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <meta property="description" itemprop="description" content="Welcome to the Data Practitioner&#39;s Handbook - a short primer on everything data."/>
 
-<link rel="canonical" href="https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/"/>
+<link rel="canonical" href="https://dubbelshot.github.io/posts/2021-01-01-hello-world/"/>
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 <!--  https://schema.org/Article -->
@@ -101,8 +101,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="og:title" content="The Data Practitioner&#39;s Handbook: hello world"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="Welcome to the Data Practitioner&#39;s Handbook - a short primer on everything data."/>
-<meta property="og:url" content="https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/"/>
-<meta property="og:image" content="https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/birds.jpg"/>
+<meta property="og:url" content="https://dubbelshot.github.io/posts/2021-01-01-hello-world/"/>
+<meta property="og:image" content="https://dubbelshot.github.io/posts/2021-01-01-hello-world/birds.jpg"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="The Data Practitioner&#39;s Handbook"/>
 
@@ -110,12 +110,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta property="twitter:card" content="summary_large_image"/>
 <meta property="twitter:title" content="The Data Practitioner&#39;s Handbook: hello world"/>
 <meta property="twitter:description" content="Welcome to the Data Practitioner&#39;s Handbook - a short primer on everything data."/>
-<meta property="twitter:url" content="https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/"/>
-<meta property="twitter:image" content="https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/birds.jpg"/>
+<meta property="twitter:url" content="https://dubbelshot.github.io/posts/2021-01-01-hello-world/"/>
+<meta property="twitter:image" content="https://dubbelshot.github.io/posts/2021-01-01-hello-world/birds.jpg"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
 <meta name="citation_title" content="The Data Practitioner&#39;s Handbook: hello world"/>
-<meta name="citation_fulltext_html_url" content="https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/"/>
+<meta name="citation_fulltext_html_url" content="https://dubbelshot.github.io/posts/2021-01-01-hello-world/"/>
 <meta name="citation_fulltext_world_readable" content=""/>
 <meta name="citation_online_date" content="2021/01/01"/>
 <meta name="citation_publication_date" content="2021/01/01"/>
@@ -124,7 +124,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","creative_commons","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["hello world"]},{"type":"character","attributes":{},"value":["Welcome to the Data Practitioner's Handbook - a short primer on everything data."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Helen Arnold"]}]}]},{"type":"character","attributes":{},"value":["Jan 01, 2021"]},{"type":"character","attributes":{},"value":["musings"]},{"type":"character","attributes":{},"value":["CC BY"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/"]},{"type":"character","attributes":{},"value":["https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","creative_commons","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["hello world"]},{"type":"character","attributes":{},"value":["Welcome to the Data Practitioner's Handbook - a short primer on everything data."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Helen Arnold"]}]}]},{"type":"character","attributes":{},"value":["Jan 01, 2021"]},{"type":"character","attributes":{},"value":["musings"]},{"type":"character","attributes":{},"value":["CC BY"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://dubbelshot.github.io/posts/2021-01-01-hello-world/"]},{"type":"character","attributes":{},"value":["https://dubbelshot.github.io/posts/2021-01-01-hello-world/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2065,29 +2065,81 @@ document.addEventListener('DOMContentLoaded', function() {
   <script src="../../site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
 <style type="text/css">
----
----
 
-@import "{{ site.theme }}";
+
 
 
 .distill-site-nav a:hover 
       {
-      color: #f9c3ae ;
-      text-decoration: underline ;
+      color: rgb(252,224,126) ;
       }
 
 
-html, body, p {
-  
-  font-family: 'Lato', sans-serif;
-  font-weight: 200;
+
+body {
+  background-color: rgb(249,249,249);
+}
+
+
+@font-face {
+    font-display: block;
+    font-family:"Lulo-Clean-W01-One-Bold";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+h1 {
+  font-family: 'Lulo-Clean-W01-One-Bold', sans-serif;
+  font-weight: 800;
+  color: rgb(36,83,170);
+  font-size: 32px;
+  letter-spacing: -0.2em;
+  line-height: 1.3; 
+}
+
+h3,h5 {
+  font-family: 'Lulo-Clean-W01-One-Bold', sans-serif;
+  font-weight: 400;
+  color: rgb(50,50,50);
+  line-height: 1.3; 
+}
+
+
+html, body, p {  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   line-height: 1.3; 
   font-size: 1.0em;
-  color: #333333;
+  color: rgb(50,50,50);
   font-style: normal;
   
 }
+
+
+d-title h1 {
+  font-family: 'Lulo-Clean-W01-One-Bold', sans-serif;
+  font-weight: 800;
+  color: rgb(36,83,170);
+  font-size: 28px;
+  letter-spacing: -0.2em;
+  line-height: 1.3; 
+}
+
+d-article h2 {
+  font-size: 20px;
+}
+
+
+
 </style>
 <!--/radix_placeholder_site_in_header-->
 
@@ -2152,13 +2204,13 @@ html, body, p {
     </span>
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fdubbelshot.github.io%2Fhandbook%2Fposts%2F2021-01-01-hello-world%2F">
+      <a href="https://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=https%3A%2F%2Fdubbelshot.github.io%2Fposts%2F2021-01-01-hello-world%2F">
         <i class="fab fa-facebook"></i>
       </a>
-      <a href="https://twitter.com/share?text=hello%20world&amp;url=https%3A%2F%2Fdubbelshot.github.io%2Fhandbook%2Fposts%2F2021-01-01-hello-world%2F">
+      <a href="https://twitter.com/share?text=hello%20world&amp;url=https%3A%2F%2Fdubbelshot.github.io%2Fposts%2F2021-01-01-hello-world%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fdubbelshot.github.io%2Fhandbook%2Fposts%2F2021-01-01-hello-world%2F&amp;title=hello%20world">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fdubbelshot.github.io%2Fposts%2F2021-01-01-hello-world%2F&amp;title=hello%20world">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>
@@ -2167,7 +2219,7 @@ html, body, p {
   <div id="disqus_thread" class="hidden"></div>
   <script type="text/javascript" cookie-consent="functionality">
 var disqus_config = function () {
-  this.page.url = 'https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/';
+  this.page.url = 'https://dubbelshot.github.io/posts/2021-01-01-hello-world/';
   this.page.identifier = 'posts/2021-01-01-hello-world/';
 };
 (function() {
@@ -2203,12 +2255,12 @@ var disqus_config = function () {
   <p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Arnold (2021, Jan. 1). The Data Practitioner's Handbook: hello world. Retrieved from https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/</pre>
+  <pre class="citation-appendix short">Arnold (2021, Jan. 1). The Data Practitioner's Handbook: hello world. Retrieved from https://dubbelshot.github.io/posts/2021-01-01-hello-world/</pre>
   <p>BibTeX citation</p>
   <pre class="citation-appendix long">@misc{arnold2021hello,
   author = {Arnold, Helen},
   title = {The Data Practitioner's Handbook: hello world},
-  url = {https://dubbelshot.github.io/handbook/posts/2021-01-01-hello-world/},
+  url = {https://dubbelshot.github.io/posts/2021-01-01-hello-world/},
   year = {2021}
 }</pre>
 </div>
