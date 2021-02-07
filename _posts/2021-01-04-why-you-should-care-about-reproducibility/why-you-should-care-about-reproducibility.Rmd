@@ -14,7 +14,7 @@ output:
     code_folding: true
 ---
 
-***POST BENG DRAFTED - TEST POST
+POST BENG DRAFTED - TEST POST
 
 In January 2010, an economics paper took the world by storm.
 
