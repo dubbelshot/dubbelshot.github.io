@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://dubbelshot.github.io/about.html</loc>
-    <lastmod>2021-02-01T23:37:52+11:00</lastmod>
+    <lastmod>2021-02-06T18:42:47+11:00</lastmod>
   </url>
   <url>
     <loc>https://dubbelshot.github.io/</loc>
@@ -10,18 +10,18 @@
   </url>
   <url>
     <loc>https://dubbelshot.github.io/posts/2021-01-04-why-you-should-care-about-reproducibility/</loc>
-    <lastmod>2021-02-02T01:15:13+11:00</lastmod>
+    <lastmod>2021-02-08T01:07:08+11:00</lastmod>
   </url>
   <url>
     <loc>https://dubbelshot.github.io/posts/2021-01-03-would-you-like-a-p-value-with-that/</loc>
-    <lastmod>2021-02-02T00:40:02+11:00</lastmod>
+    <lastmod>2021-02-08T01:08:35+11:00</lastmod>
   </url>
   <url>
     <loc>https://dubbelshot.github.io/posts/2021-01-02-why-its-ok-to-be-average/</loc>
-    <lastmod>2021-02-02T00:39:51+11:00</lastmod>
+    <lastmod>2021-02-08T01:08:20+11:00</lastmod>
   </url>
   <url>
     <loc>https://dubbelshot.github.io/posts/2021-01-01-hello-world/</loc>
-    <lastmod>2021-02-02T22:21:19+11:00</lastmod>
+    <lastmod>2021-02-08T01:08:27+11:00</lastmod>
   </url>
 </urlset>

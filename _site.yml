@@ -9,6 +9,7 @@ collections:
     share: [facebook, twitter, linkedin]
     subscribe: _subscribe.html
 output_dir: "docs"
+theme: theme.css
 navbar:
   right:
     - text: "Home"
@@ -17,4 +18,4 @@ navbar:
       href: about.html
 output: 
   distill::distill_article:
-     css: "styles.css"
+     css: styles.css

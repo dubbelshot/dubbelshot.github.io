@@ -2052,6 +2052,480 @@ document.addEventListener('DOMContentLoaded', function() {
 
 </script>
 
+<style type="text/css">
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      50px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     #000000;
+  --header-color:    rgba(0, 0, 0, 0.8);
+  --body-color:      rgba(0, 0, 0, 0.8);
+  --aside-color:     rgba(0, 0, 0, 0.6);
+  --fig-cap-color:   rgba(0, 0, 0, 0.6);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    sans-serif;
+  --mono-font:       monospace;
+  --body-font:       sans-serif;
+  --navbar-font:     sans-serif;  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.6rem;
+  --heading-color:   rgba(0, 0, 0, 0.5);
+  --body-size:       0.8rem;
+  --body-color:      rgba(0, 0, 0, 0.8);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgba(0, 0, 0, 0.65);
+  --text-size:       0.8em;
+  --text-color:      rgba(0, 0, 0, 0.5);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       18px;
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+.distill-site-footer {
+  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-size:        15px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+</style>
+<style type="text/css">
+/* base variables */
+
+/* Edit the CSS properties in this file to create a custom
+   Distill theme. Only edit values in the right column
+   for each row; values shown are the CSS defaults.
+   To return any property to the default,
+   you may set its value to: unset
+   All rows must end with a semi-colon.                      */
+
+/* Optional: embed custom fonts here with `@import`          */
+/* This must remain at the top of this file.                 */
+
+@font-face {
+    font-display: block;
+    font-family:"Lulo-Clean-W01-One-Bold";
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
+}
+
+@font-face {
+  font-family: 'Spinnaker';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/spinnaker/v12/w8gYH2oyX-I0_rvR6HmX23YK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/dancingscript/v16/If2cXTr6YS-zF4S-kcSWSVi_sxjsohD9F50Ruu7BMSo3Sup8.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Pangolin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/pangolin/v6/cY9GfjGcW0FPpi-tWMfN79w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Walter Turncoat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/walterturncoat/v11/snfys0Gs98ln43n0d-14ULoToe6LZxec.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Cabin Sketch';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/cabinsketch/v14/QGYpz_kZZAGCONcK2A4bGOj8mNhN.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/ptmono/v8/9oRONYoBnWILk-9AnC8zMw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/quicksand/v22/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o58a-wg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
+html {
+  /*-- Main font sizes --*/
+  --title-size:      40px;
+  --body-size:       1.06rem;
+  --code-size:       14px;
+  --aside-size:      12px;
+  --fig-cap-size:    13px;
+  /*-- Main font colors --*/
+  --title-color:     rgb(108, 57,102);
+  --header-color:    rgb(108, 57,102);
+  --body-color:      rgb( 80, 80, 80);
+  --aside-color:     rgb(  0,  0,  0);
+  --fig-cap-color:   rgb(  0,  0,  0);
+  /*-- Specify custom fonts ~~~ must be imported above   --*/
+  --heading-font:    'Spinnaker';
+  --mono-font:       'PT Mono';
+  --body-font:       'Quicksand';
+  --navbar-font:     'Spinnaker';  /* websites + blogs only */
+}
+
+/*-- ARTICLE METADATA --*/
+d-byline {
+  --heading-size:    0.7rem;
+  --heading-color:   rgb(108, 57,102);
+  --body-size:       0.8rem;
+  --body-color:      rgb( 80, 80, 80);
+}
+
+/*-- ARTICLE TABLE OF CONTENTS --*/
+.d-contents {
+  --heading-size:    18px;
+  --contents-size:   13px;
+}
+
+/*-- ARTICLE APPENDIX --*/
+d-appendix {
+  --heading-size:    15px;
+  --heading-color:   rgb(  0,  0,  0);
+  --text-size:       0.8em;
+  --text-color:      rgb(  0,  0,  0);
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+/* These properties only apply to Distill sites and blogs  */
+
+.distill-site-header {
+  --title-size:       14px;
+  --text-color:       rgb(250,250,250);
+  --text-size:        14px;
+  --hover-color:      rgb(240,240,186);
+  --bkgd-color:       rgb(108,57,102);
+}
+
+.distill-site-footer {
+  --text-color:       rgb(255,255,255);
+  --text-size:        14px;
+  --hover-color:      white;
+  --bkgd-color:       #0F2E3D;
+}
+
+
+
+
+/*-- Additional custom styles --*/
+/* Add any additional CSS rules below                      */
+
+
+
+
+.distill-site-header  {
+    text-transform : uppercase ;
+  }
+
+.distill-site-header .title {
+    margin-right   : 50px ;
+    margin-top     : 5px ;
+    margin-bottom  : 5px ; 
+  }
+
+.distill-site-header .nav-right {
+    margin-top     : 5px ;
+    margin-bottom  : 5px ; 
+  }
+
+
+.posts-list .post-preview .metadata    { float: left ; width: 15%; margin-top: 20px;    }
+.posts-list .post-preview .description { float: left ; width: 55%;                     }
+.posts-list .post-preview .thumbnail   { float: right; width: 30%; margin-bottom: 0px; }
+
+.posts-with-sidebar .posts-list    { width: 80%; }
+.posts-with-sidebar .posts-sidebar { width: 15%; }
+
+
+.posts-sidebar {
+    font-size      : 14px ;
+  }
+
+.posts-sidebar h3 {
+    font-weight    : 700 ;
+    font-family    : 'Spinnaker' ;
+  }
+
+.sidebar-section.subscribe {
+    font-size      : 14px ;
+    line-height    : 1.3em ;
+  }
+
+.sidebar-section.categories a {
+    margin-top     : 2px ;
+    margin-bottom  : 2px ;
+    border-top     : none ;
+    border-bottom  : none ;
+  }
+
+.sidebar-section.categories a:hover {
+    color          : rgb(43,100,204) ;
+    font-weight    : 700 ;
+    border-top     : 1px solid rgb(43,100,204);
+    border-bottom  : 1px solid rgb(43,100,204);
+  }
+
+
+.disqus-comment-count {
+    margin-top     : 2px ;
+    margin-bottom  : 2px ;
+}
+
+.disqus-comment-count:hover {
+    color          : rgb(43,100,204) ;
+    font-weight    : 700 ;
+    border-top     : 1px solid rgb(43,100,204);
+    border-bottom  : 1px solid rgb(43,100,204);
+  }
+
+
+
+
+
+.posts-list h1 {
+    font-family    : 'Lulo-Clean-W01-One-Bold' ;
+    font-weight    : 700 ;
+    font-size      : 36px ;
+    letter-spacing : -0.2em ;
+    line-height    : 1.3em ; 
+  }
+
+.posts-list .post-preview h2 {
+    font-weight    : 700 ;
+    text-transform : uppercase ;
+    letter-spacing : 0.05em ;
+    font-size      : 20px ;
+  }
+
+.posts-list .metadata {
+    font-size      : 13px ;
+    margin-top     : 5px ;
+  }
+
+
+
+</style>
+<style type="text/css">
+/* base style */
+
+/* FONT FAMILIES */
+
+:root {
+  --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+body,
+.posts-list .post-preview p,
+.posts-list .description p {
+  font-family: var(--body-font), var(--body-default);
+}
+
+h1, h2, h3, h4, h5, h6,
+.posts-list .post-preview h2,
+.posts-list .description h2 {
+  font-family: var(--heading-font), var(--heading-default);
+}
+
+d-article div.sourceCode code,
+d-article pre code {
+  font-family: var(--mono-font), var(--mono-default);
+}
+
+
+/*-- TITLE --*/
+d-title h1,
+.posts-list > h1 {
+  color: var(--title-color, black);
+}
+
+d-title h1 {
+  font-size: var(--title-size, 50px);
+}
+
+/*-- HEADERS --*/
+d-article h1,
+d-article h2,
+d-article h3,
+d-article h4,
+d-article h5,
+d-article h6 {
+  color: var(--header-color, rgba(0, 0, 0, 0.8));
+}
+
+/*-- BODY --*/
+d-article > p,  /* only text inside of <p> tags */
+d-article > ul, /* lists */
+d-article > ol {
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+  font-size: var(--body-size, 1.06rem);
+}
+
+
+/*-- CODE --*/
+d-article div.sourceCode code,
+d-article pre code {
+  font-size: var(--code-size, 14px);
+}
+
+/*-- ASIDE --*/
+d-article aside {
+  font-size: var(--aside-size, 12px);
+  color: var(--aside-color, rgba(0, 0, 0, 0.6));
+}
+
+/*-- FIGURE CAPTIONS --*/
+figure .caption,
+figure figcaption,
+.figure .caption {
+  font-size: var(--fig-cap-size, 13px);
+  color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+}
+
+/*-- METADATA --*/
+d-byline h3 {
+  font-size: var(--heading-size, 0.6rem);
+  color: var(--heading-color, rgba(0, 0, 0, 0.5));
+}
+
+d-byline {
+  font-size: var(--body-size, 0.8rem);
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+}
+
+d-byline a,
+d-article d-byline a {
+  color: var(--body-color, rgba(0, 0, 0, 0.8));
+}
+
+/*-- TABLE OF CONTENTS --*/
+.d-contents nav h3 {
+  font-size: var(--heading-size, 18px);
+}
+
+.d-contents nav a {
+  font-size: var(--contents-size, 13px);
+}
+
+/*-- APPENDIX --*/
+d-appendix h3 {
+  font-size: var(--heading-size, 15px);
+  color: var(--heading-color, rgba(0, 0, 0, 0.65));
+}
+
+d-appendix {
+  font-size: var(--text-size, 0.8em);
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
+}
+
+d-appendix d-footnote-list a.footnote-backlink {
+  color: var(--text-color, rgba(0, 0, 0, 0.5));
+}
+
+/*-- WEBSITE HEADER + FOOTER --*/
+.distill-site-header .title {
+  font-size: var(--title-size, 18px);
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.distill-site-header a,
+.nav-dropdown .nav-dropbtn {
+  font-family: var(--navbar-font), var(--heading-default);
+}
+
+.nav-dropdown .nav-dropbtn {
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  font-size: var(--text-size, 15px);
+}
+
+.distill-site-header a:hover,
+.nav-dropdown:hover .nav-dropbtn {
+  color: var(--hover-color, white);
+}
+
+.distill-site-header {
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
+}
+
+.distill-site-footer {
+  font-size: var(--text-size, 15px);
+  color: var(--text-color, rgba(255, 255, 255, 0.8));
+  background-color: var(--bkgd-color, #0F2E3D);
+}
+
+.distill-site-footer a:hover {
+  color: var(--hover-color, white);
+}</style>
 <!--/radix_placeholder_distill-->
   <script src="../../site_libs/header-attrs-2.6/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -2068,74 +2542,76 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-
-.distill-site-nav a:hover 
-      {
-      color: rgb(252,224,126) ;
-      }
-
-
-
-body {
-  background-color: rgb(249,249,249);
-}
-
-
-@font-face {
-    font-display: block;
-    font-family:"Lulo-Clean-W01-One-Bold";
-    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix");
-    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0163ac22-50a7-406e-aa64-c62ee6fbf3d7.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/80de9d5d-ab5f-40ce-911b-104e51e93d7c.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/1b46b05b-cfdd-4d82-8c2f-5c6cfba1fe60.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/be340f0b-a2d4-41df-acb1-4dc124330a88.svg#be340f0b-a2d4-41df-acb1-4dc124330a88") format("svg");
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-
-
-h1 {
-  font-family: 'Lulo-Clean-W01-One-Bold', sans-serif;
-  font-weight: 800;
-  color: rgb(36,83,170);
-  font-size: 32px;
-  letter-spacing: -0.2em;
-  line-height: 1.3; 
-}
-
-h3,h5 {
-  font-family: 'Lulo-Clean-W01-One-Bold', sans-serif;
-  font-weight: 400;
-  color: rgb(50,50,50);
-  line-height: 1.3; 
-}
-
-
-html, body, p {  
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  line-height: 1.3; 
-  font-size: 1.0em;
-  color: rgb(50,50,50);
-  font-style: normal;
-  
-}
-
-
 d-title h1 {
-  font-family: 'Lulo-Clean-W01-One-Bold', sans-serif;
-  font-weight: 800;
-  color: rgb(36,83,170);
-  font-size: 28px;
-  letter-spacing: -0.2em;
-  line-height: 1.3; 
+    font-weight    : 700;
+    text-transform : uppercase ;
+    font-size      : 28px ;
+    letter-spacing : 0.05em ;
+    line-height    : 1.1em ;
+    margin-top     : 20px ;
+  }
+
+
+d-title p {
+    font-weight: 400;
+    font-size: 1.12rem;
+    margin-top: 0.5em ;
+    margin-bottom: 0.5em ;
+  }
+
+
+
+
+
+d-byline {
+    padding: 0rem 0;
 }
 
-d-article h2 {
-  font-size: 20px;
+d-byline .byline {
+    grid-template-columns: 150px 1px 150px 150px;
+    grid-column-gap: 0px;
+    margin-top: 0.4em;
+}
+
+d-byline a:hover {
+    color          : rgb(43,100,204) ;
+    font-weight    : 700 ;
+    margin-top     : 2px ;
+    margin-bottom  : 2px ;
+    border-top     : 1px solid rgb(43,100,204);
+    border-bottom  : 1px solid rgb(43,100,204);
+  }
+
+d-byline .authors-affiliations {
+    grid-column-end: span 2;
+    grid-template-columns: 100px 1px ;
+    margin-bottom: 0.5em;
+}
+
+d-byline .byline h3 {
+    font-family    : 'Spinnaker' ;
+    margin-block-start: 0.5em;
+    font-weight    : 700 ;
+    font-size      : 12px ;
+    letter-spacing : 0.05em ;
+}
+
+d-byline p.author {
+    font-weight: 400;
+}
+
+
+
+
+
+.article-footer {
+    font-size      : 14px ;
+}
+
+.article-footer .subscribe {
+    font-size      : 13px ;
+    line-height    : 1.1em ;
+    margin-top: 15px;
 }
 
 
@@ -2231,7 +2707,9 @@ var disqus_config = function () {
 </script>
   <p>
     <div class="subscribe"><form method='post' action='https://blogtrottr.com'>
-  <p>Enjoy this blog? Get notified of new posts via email:</p>
+  <p>Enjoy this blog? Why not get notified of new posts via email!</p>
+  <p>Enter your email address in the box below and click 'Subscribe'.</p>
+  <p></p>It's easy as &pi;.</p>
   <input type='text' name='btr_email' />
   <input type='hidden' name='btr_url'
          value='https://dubbelshot.github.io/handbook/'/>

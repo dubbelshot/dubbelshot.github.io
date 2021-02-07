@@ -9,17 +9,17 @@
     <generator>Distill</generator>
     <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
     <item>
-      <title>Why you should care about reproducibility</title>
+      <title>why you should care about reproducibility</title>
       <dc:creator>Helen Arnold</dc:creator>
       <link>https://dubbelshot.github.io/posts/2021-01-04-why-you-should-care-about-reproducibility</link>
-      <description>How two revered economists really stuffed up.</description>
+      <description>Two famous economists, a PhD student, and an Excel spreadsheet: the methodological errors that led to austerity measures taking hold in the UK.</description>
       <category>economics</category>
       <category>intro</category>
       <guid>https://dubbelshot.github.io/posts/2021-01-04-why-you-should-care-about-reproducibility</guid>
       <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Would you like a p-value with that?</title>
+      <title>do you want p-values with that?</title>
       <dc:creator>Helen Arnold</dc:creator>
       <link>https://dubbelshot.github.io/posts/2021-01-03-would-you-like-a-p-value-with-that</link>
       <description>What's a p-value anyway? And why do we need them?</description>
@@ -32,7 +32,7 @@
       <title>Why it's OK to be average</title>
       <dc:creator>Helen Arnold</dc:creator>
       <link>https://dubbelshot.github.io/posts/2021-01-02-why-its-ok-to-be-average</link>
-      <description>I once spent 30 minutes on the phone trying to explain to someone why I wasn't worried that half of all school students scored below average in reading literacy. This post explains why.</description>
+      <description>I once spent 30 minutes on the phone trying to explain to someone why I wasn't worried that half of all school students scored below average in reading literacy.</description>
       <category>statistics</category>
       <category>intro</category>
       <guid>https://dubbelshot.github.io/posts/2021-01-02-why-its-ok-to-be-average</guid>

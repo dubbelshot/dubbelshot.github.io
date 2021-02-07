@@ -1,5 +1,5 @@
 ---
-title: "Would you like a p-value with that?"
+title: "do you want p-values with that?"
 description: |
   What's a p-value anyway? And why do we need them?
 author:
