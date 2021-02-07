@@ -7,7 +7,7 @@
     <description>A short primer on just about everything.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 04 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jan 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>why you should care about reproducibility</title>
       <dc:creator>Helen Arnold</dc:creator>
@@ -16,7 +16,7 @@
       <category>economics</category>
       <category>intro</category>
       <guid>https://dubbelshot.github.io/posts/2021-01-04-why-you-should-care-about-reproducibility</guid>
-      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>do you want p-values with that?</title>

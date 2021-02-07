@@ -14,6 +14,8 @@ output:
     code_folding: true
 ---
 
+***POST BENG DRAFTED - TEST POST
+
 In January 2010, an economics paper took the world by storm.
 
 This paper, authored by renowned economists Carmen Reinhart and Ken Rogoff, explored the relationship between debt and economic growth.^[Reinhart CM, Rogoff KS. Growth in a Time of Debt. American Economic Review. 2010;100(2):573-8. doi: 10.1257/aer.100.2.573] A key finding was that developed economies had a fiscal cliff: when government debt exceeded 90 per cent of GDP, economic growth suffered.^[Reinhart CM, Rogoff KS. Growth in a Time of Debt. American Economic Review. 2010;100(2):573-8. doi: 10.1257/aer.100.2.573] Right-wing governments embraced this findings to justify austerity measures targeted at reducing public debt^[Inman P. Rogoff and Reinhart defend their numbers: The Guardian; 18 April 2013 (accessed 10 November 2020). Available from: https://www.theguardian.com/business/economics-blog/2013/apr/17/rogoff-reinhart-defend-debt-study] ^[Krugman P. The case for cuts was a lie. Why does Britain still believe it? - The austerity delusion: The Guardian; 29 April 2015 (accessed 10 November 2020). Available from: https://www.theguardian.com/business/ng-interactive/2015/apr/29/the-austerity-delusion] in the global aftermath of the collapse of the US banking sector in 2007-08.
