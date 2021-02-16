@@ -16,6 +16,17 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - logo: images/rstudio.png
+    - icon: fa-github
+      href: https://www.github.com/dubbelshot/
+    - icon: fa-instagram
+      href: https://www.instagram.com/dubbelshot/
+    - icon: fa-twitter
+      href: https://www.twitter.com/dubbelshot/
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/hel-arnold/
+    - icon: fa-facebook
+      href: https://www.facebook.com/helen.arnold.127/
 output: 
   distill::distill_article:
      css: styles.css

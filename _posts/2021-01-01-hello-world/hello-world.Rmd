@@ -13,7 +13,24 @@ output:
     self_contained: false 
 ---
 
-```{r, echo = FALSE, fig.align = 'center', out.width = '60%', results = 'markup'} 
-knitr::include_graphics("birds.jpg")
-
+```{r, echo = FALSE, fig.align = 'center', out.width = '300px', results = 'markup',}
+knitr::include_graphics("https://media.giphy.com/media/6pUBXVTai18Iw/source.gif")
 ```
+
+![caption](https://media.giphy.com/media/6pUBXVTai18Iw/source.gif){width='200px'}
+
+:::: {style="display: grid; grid-template-columns: 1fr 3fr; grid-column-gap: 10px;"}
+
+::: {}
+
+
+```{r, echo = FALSE, fig.align = 'center', out.width = '300px', results = 'markup',}
+knitr::include_graphics("https://media.giphy.com/media/6pUBXVTai18Iw/source.gif")
+```
+:::
+
+::: {}
+And this block will be put on the right:
+:::
+
+::::

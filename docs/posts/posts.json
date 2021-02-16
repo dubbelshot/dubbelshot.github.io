@@ -14,10 +14,12 @@
       "economics",
       "intro"
     ],
-    "contents": "\r\nPOST BENG DRAFTED - TEST POST\r\nIn January 2010, an economics paper took the world by storm.\r\nThis paper, authored by renowned economists Carmen Reinhart and Ken Rogoff, explored the relationship between debt and economic growth.1 A key finding was that developed economies had a fiscal cliff: when government debt exceeded 90 per cent of GDP, economic growth suffered.2 Right-wing governments embraced this findings to justify austerity measures targeted at reducing public debt3 4 in the global aftermath of the collapse of the US banking sector in 2007-08.\r\nBut when PhD student Thomas Herndon set out to replicate the findings of Reinhart and Rogoff in a graduate class assignment two years later, he found major flaws. Not only were there formula errors in the Excel spreadsheet used by Reinhart and Rogoff, but questionable weightings had been applied to the countries in the analysis. (4-6) Once these issues were corrected, the fiscal cliff vanished. (3-6) In addition, questions were raised about the causal direction of the relationship – rather than high debt causing slow growth, economists began to question whether it was instead slow growth that caused high debt. (3)\r\nHerndon’s debunking research, published in 2013, coincided with most developed countries beginning to abandon austerity. (3) However, despite increasing evidence that austerity was not an economic silver bullet, (3) the UK government has held firmly to austerity measures such as cuts to welfare payments and social services since 2010, citing Greece as an example of an economy in crisis. (3, 7) Recent criticism has focused heavily on increases in poverty, food shortages and crime in the UK under austerity measures. (7)\r\nThe Reinhart and Rogoff controversy highlighted three major problems in the relationship between science and politics: first, that a single paper could be used to justify broad-reaching government responses to major social crises; second, that even after major flaws with this paper were discovered, governments continued to argue that the austerity approach to managing debt was supported by evidence; and third, that people re-elected a government committed to policy based on long-discredited research.\r\n\r\nReinhart CM, Rogoff KS. Growth in a Time of Debt. American Economic Review. 2010;100(2):573-8. doi: 10.1257/aer.100.2.573↩︎\r\nReinhart CM, Rogoff KS. Growth in a Time of Debt. American Economic Review. 2010;100(2):573-8. doi: 10.1257/aer.100.2.573↩︎\r\nInman P. Rogoff and Reinhart defend their numbers: The Guardian; 18 April 2013 (accessed 10 November 2020). Available from: https://www.theguardian.com/business/economics-blog/2013/apr/17/rogoff-reinhart-defend-debt-study↩︎\r\nKrugman P. The case for cuts was a lie. Why does Britain still believe it? - The austerity delusion: The Guardian; 29 April 2015 (accessed 10 November 2020). Available from: https://www.theguardian.com/business/ng-interactive/2015/apr/29/the-austerity-delusion↩︎\r\n",
-    "preview": {},
-    "last_modified": "2021-02-08T01:13:48+11:00",
-    "input_file": {}
+    "contents": "\r\nPOST BENG DRAFTED - TEST POST\r\nIn January 2010, an economics paper took the world by storm.\r\nThis paper, authored by renowned economists Carmen Reinhart and Ken Rogoff, explored the relationship between debt and economic growth.1 A key finding was that developed economies had a fiscal cliff: when government debt exceeded 90 per cent of GDP, economic growth suffered:\r\n\r\n\r\n\r\nThis charts tells me two things. Firstly, that Reinhart and Rogoff desperately need a chart stylist; and secondly, that there is a freaking huge difference between the mean and the median GDP growth for countries with a debt/GDP ratio exceeding 0.9.\r\nIn layperson’s terms: if your government debt tips over the magic threshold from 90 to 91 per cent, your GDP growth drops from around +3.5 to -0.1 … mystery units.2\r\nHigh debt = low growth. Simples!\r\nGovernments embraced these findings to justify austerity measures targeted at reducing public debt3 4 in the global aftermath of the collapse of the US banking sector in 2007-08.\r\nThis is the sort of finding that you would think justifies a quick double-check of your data. If you handed me this paper for publication, you can betcha I would ask to see your source data and code.\r\nBut when PhD student Thomas Herndon set out to replicate the findings of Reinhart and Rogoff in a graduate class assignment two years later, he found major flaws. Not only were there formula errors in the Excel spreadsheet used by Reinhart and Rogoff, but questionable weightings had been applied to the countries in the analysis. (4-6) Once these issues were corrected, the fiscal cliff vanished. (3-6) In addition, questions were raised about the causal direction of the relationship – rather than high debt causing slow growth, economists began to question whether it was instead slow growth that caused high debt. (3)\r\nHerndon’s debunking research, published in 2013, coincided with most developed countries beginning to abandon austerity. (3) However, despite increasing evidence that austerity was not an economic silver bullet, (3) the UK government has held firmly to austerity measures such as cuts to welfare payments and social services since 2010, citing Greece as an example of an economy in crisis. (3, 7) Recent criticism has focused heavily on increases in poverty, food shortages and crime in the UK under austerity measures. (7)\r\nThe Reinhart and Rogoff controversy highlighted three major problems in the relationship between science and politics: first, that a single paper could be used to justify broad-reaching government responses to major social crises; second, that even after major flaws with this paper were discovered, governments continued to argue that the austerity approach to managing debt was supported by evidence; and third, that people re-elected a government committed to policy based on long-discredited research.\r\n\r\n  id               group    stat gdp_growth inflation\r\n1  1  Debt/GDP below 30% Average        3.8       4.9\r\n2  2  Debt/GDP below 30%  Median        3.9       4.9\r\n3  3 Debt/GDP 30% to 60% Average        2.9       3.8\r\n4  4 Debt/GDP 30% to 60%  Median        3.0       3.8\r\n5  5 Debt/GDP 60% to 90% Average        3.5       3.5\r\n6  6 Debt/GDP 60% to 90%  Median        3.3       3.5\r\n7  7  Debt/GDP above 90% Average       -0.1       4.0\r\n8  8  Debt/GDP above 90%  Median        2.3       4.0\r\n\r\n\r\n\r\nReinhart CM, Rogoff KS. Growth in a Time of Debt. American Economic Review. 2010;100(2):573-8. doi: 10.1257/aer.100.2.573↩︎\r\nwhich I assume, from reading the article, is meant to be per cent… please, always label your axes with units as well as intervals↩︎\r\nInman P. Rogoff and Reinhart defend their numbers: The Guardian; 18 April 2013 (accessed 10 November 2020). Available from: https://www.theguardian.com/business/economics-blog/2013/apr/17/rogoff-reinhart-defend-debt-study↩︎\r\nKrugman P. The case for cuts was a lie. Why does Britain still believe it? - The austerity delusion: The Guardian; 29 April 2015 (accessed 10 November 2020). Available from: https://www.theguardian.com/business/ng-interactive/2015/apr/29/the-austerity-delusion↩︎\r\n",
+    "preview": "posts/2021-01-04-why-you-should-care-about-reproducibility/figure1.png",
+    "last_modified": "2021-02-13T00:06:29+11:00",
+    "input_file": {},
+    "preview_width": 673,
+    "preview_height": 739
   },
   {
     "path": "posts/2021-01-03-would-you-like-a-p-value-with-that/",
@@ -36,8 +38,8 @@
     ],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-08T01:08:35+11:00",
-    "input_file": {}
+    "last_modified": "2021-02-16T14:02:42+11:00",
+    "input_file": "would-you-like-a-p-value-with-that.utf8.md"
   },
   {
     "path": "posts/2021-01-02-why-its-ok-to-be-average/",
@@ -56,8 +58,8 @@
     ],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-08T01:08:20+11:00",
-    "input_file": {}
+    "last_modified": "2021-02-16T14:02:32+11:00",
+    "input_file": "why-its-ok-to-be-average.utf8.md"
   },
   {
     "path": "posts/2021-01-01-hello-world/",
@@ -73,9 +75,9 @@
     "categories": [
       "musings"
     ],
-    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-    "preview": "posts/2021-01-01-hello-world/birds.jpg",
-    "last_modified": "2021-02-08T01:08:27+11:00",
-    "input_file": {}
+    "contents": "\r\n\r\n\r\n\r\ncaption\r\n\r\n\r\n\r\n\r\n\r\n\r\nAnd this block will be put on the right:\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "https://media.giphy.com/media/6pUBXVTai18Iw/source.gif",
+    "last_modified": "2021-02-16T14:02:16+11:00",
+    "input_file": "hello-world.utf8.md"
   }
 ]
