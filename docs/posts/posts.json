@@ -39,7 +39,7 @@
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
     "last_modified": "2021-02-16T14:02:42+11:00",
-    "input_file": "would-you-like-a-p-value-with-that.utf8.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-01-02-why-its-ok-to-be-average/",
@@ -58,8 +58,8 @@
     ],
     "contents": "\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2021-02-16T14:02:32+11:00",
-    "input_file": "why-its-ok-to-be-average.utf8.md"
+    "last_modified": "2021-02-16T14:02:33+11:00",
+    "input_file": {}
   },
   {
     "path": "posts/2021-01-01-hello-world/",
@@ -78,6 +78,6 @@
     "contents": "\r\n\r\n\r\n\r\ncaption\r\n\r\n\r\n\r\n\r\n\r\n\r\nAnd this block will be put on the right:\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "https://media.giphy.com/media/6pUBXVTai18Iw/source.gif",
     "last_modified": "2021-02-16T14:02:16+11:00",
-    "input_file": "hello-world.utf8.md"
+    "input_file": {}
   }
 ]
