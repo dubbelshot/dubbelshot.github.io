@@ -127,7 +127,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["would-you-like-a-p-value-with-that_files/anchor-4.2.2/anchor.min.js","would-you-like-a-p-value-with-that_files/bowser-1.9.3/bowser.min.js","would-you-like-a-p-value-with-that_files/distill-2.2.21/template.v2.js","would-you-like-a-p-value-with-that_files/header-attrs-2.6/header-attrs.js","would-you-like-a-p-value-with-that_files/jquery-1.11.3/jquery.min.js","would-you-like-a-p-value-with-that_files/popper-2.6.0/popper.min.js","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy-bundle.umd.min.js","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy-light-border.css","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy.css","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy.umd.min.js","would-you-like-a-p-value-with-that_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["embed.html","would-you-like-a-p-value-with-that_files/anchor-4.2.2/anchor.min.js","would-you-like-a-p-value-with-that_files/bowser-1.9.3/bowser.min.js","would-you-like-a-p-value-with-that_files/distill-2.2.21/template.v2.js","would-you-like-a-p-value-with-that_files/header-attrs-2.6/header-attrs.js","would-you-like-a-p-value-with-that_files/jquery-1.11.3/jquery.min.js","would-you-like-a-p-value-with-that_files/popper-2.6.0/popper.min.js","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy-bundle.umd.min.js","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy-light-border.css","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy.css","would-you-like-a-p-value-with-that_files/tippy-6.2.7/tippy.umd.min.js","would-you-like-a-p-value-with-that_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2278,6 +2278,7 @@ d-appendix {
 
 
 
+
 .distill-site-header  {
     text-transform : uppercase ;
   }
@@ -2294,12 +2295,27 @@ d-appendix {
   }
 
 
-.posts-list .post-preview .metadata    { float: left ; width: 15%; margin-top: 20px;    }
-.posts-list .post-preview .description { float: left ; width: 55%;                     }
-.posts-list .post-preview .thumbnail   { float: right; width: 30%; margin-bottom: 0px; }
 
-.posts-with-sidebar .posts-list    { width: 80%; }
-.posts-with-sidebar .posts-sidebar { width: 15%; }
+.posts-list {
+    margin-top   : 40px;
+    margin-right : 20px;
+}
+
+.posts-list .post-preview { 
+    margin-top     : 10px ;
+    margin-bottom  : 10px ; 
+    margin-left    : 10px ;
+    margin-right   : 10px ;
+  }
+
+.posts-list .post-preview .metadata    { float: left  ; min-width: 110px ; max-width: 130px  ;                     }
+.posts-list .post-preview .description { float: left  ; min-width: 400px ; max-width: 800px  ; width:100%;         }
+.posts-list .post-preview .thumbnail   { float: right ;                    max-width: 10px   ; visibility: hidden; }
+
+
+.posts-with-sidebar .posts-list    { width: 75%; }
+.posts-with-sidebar .posts-sidebar { width: 20%; min-width: 150px ; }
+
 
 
 .posts-sidebar {
@@ -2560,7 +2576,6 @@ d-title p {
 
 
 
-
 d-byline {
     padding: 0rem 0;
 }
@@ -2639,7 +2654,6 @@ d-byline p.author {
 <div class="nav-right">
 <a href="../../index.html">Home</a>
 <a href="../../about.html">About</a>
-<span class="nav-dropdown-header"></span>
 <a href="https://www.github.com/dubbelshot/">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
@@ -2700,6 +2714,12 @@ d-byline p.author {
       </a>
       <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fdubbelshot.github.io%2Fposts%2F2021-01-03-would-you-like-a-p-value-with-that%2F&amp;title=do%20you%20want%20p-values%20with%20that%3F">
         <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://pinterest.com/pin/create/link/?url=https%3A%2F%2Fdubbelshot.github.io%2Fposts%2F2021-01-03-would-you-like-a-p-value-with-that%2F&amp;description=do%20you%20want%20p-values%20with%20that%3F">
+        <i class="fab fa-pinterest"></i>
+      </a>
+      <a href="https://plus.google.com/share?url=https%3A%2F%2Fdubbelshot.github.io%2Fposts%2F2021-01-03-would-you-like-a-p-value-with-that%2F">
+        <i class="fab fa-google-plus"></i>
       </a>
     </span>
   </p>

@@ -17,4 +17,9 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+library(htmltools)
+
+htmltools::includeHTML("embed.html")
+
 ```

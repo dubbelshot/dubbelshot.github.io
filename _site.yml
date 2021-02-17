@@ -6,17 +6,17 @@ base_url: https://dubbelshot.github.io/
 collections:
   posts:
     disqus: the-data-practitioners-handbook
-    share: [facebook, twitter, linkedin]
+    share: [facebook, twitter, linkedin, pinterest, google-plus]
     subscribe: _subscribe.html
 output_dir: "docs"
 theme: theme.css
+runtime: shiny
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
-    - logo: images/rstudio.png
     - icon: fa-github
       href: https://www.github.com/dubbelshot/
     - icon: fa-instagram
@@ -29,4 +29,5 @@ navbar:
       href: https://www.facebook.com/helen.arnold.127/
 output: 
   distill::distill_article:
+     toc: true
      css: styles.css

@@ -2257,6 +2257,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 
+
   .distill-site-header  {
       text-transform : uppercase ;
     }
@@ -2273,12 +2274,27 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     }
 
 
-  .posts-list .post-preview .metadata    { float: left ; width: 15%; margin-top: 20px;    }
-  .posts-list .post-preview .description { float: left ; width: 55%;                     }
-  .posts-list .post-preview .thumbnail   { float: right; width: 30%; margin-bottom: 0px; }
 
-  .posts-with-sidebar .posts-list    { width: 80%; }
-  .posts-with-sidebar .posts-sidebar { width: 15%; }
+  .posts-list {
+      margin-top   : 40px;
+      margin-right : 20px;
+  }
+
+  .posts-list .post-preview { 
+      margin-top     : 10px ;
+      margin-bottom  : 10px ; 
+      margin-left    : 10px ;
+      margin-right   : 10px ;
+    }
+
+  .posts-list .post-preview .metadata    { float: left  ; min-width: 110px ; max-width: 130px  ;                     }
+  .posts-list .post-preview .description { float: left  ; min-width: 400px ; max-width: 800px  ; width:100%;         }
+  .posts-list .post-preview .thumbnail   { float: right ;                    max-width: 10px   ; visibility: hidden; }
+
+
+  .posts-with-sidebar .posts-list    { width: 75%; }
+  .posts-with-sidebar .posts-sidebar { width: 20%; min-width: 150px ; }
+
 
 
   .posts-sidebar {
@@ -2538,7 +2554,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 
-
   d-byline {
       padding: 0rem 0;
   }
@@ -2618,7 +2633,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="about.html">About</a>
-<span class="nav-dropdown-header"></span>
 <a href="https://www.github.com/dubbelshot/">
 <i class="fa fa-github" aria-hidden="true"></i>
 </a>
@@ -2816,26 +2830,6 @@ function init_posts_list() {
 <p>What's a p-value anyway? And why do we need them?</p>
 </div>
 </a>
-<a href="posts/2021-01-02-why-its-ok-to-be-average/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["statistics","intro"]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 2, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Helen Arnold</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Why it's OK to be average</h2>
-<div class="dt-tags">
-<div class="dt-tag">statistics</div>
-<div class="dt-tag">intro</div>
-</div>
-<p>I once spent 30 minutes on the phone trying to explain to someone why I wasn't worried that half of all school students scored below average in reading literacy.</p>
-</div>
-</a>
 <a href="posts/2021-01-01-hello-world/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["musings"]}</script>
 <div class="metadata">
@@ -2875,7 +2869,7 @@ function init_posts_list() {
 <ul>
 <li>
 <a href="#category:articles">articles</a>
-<span class="category-count">(4)</span>
+<span class="category-count">(3)</span>
 </li>
 <li>
 <a href="#category:economics">economics</a>
@@ -2883,7 +2877,7 @@ function init_posts_list() {
 </li>
 <li>
 <a href="#category:intro">intro</a>
-<span class="category-count">(3)</span>
+<span class="category-count">(2)</span>
 </li>
 <li>
 <a href="#category:musings">musings</a>
@@ -2891,7 +2885,7 @@ function init_posts_list() {
 </li>
 <li>
 <a href="#category:statistics">statistics</a>
-<span class="category-count">(2)</span>
+<span class="category-count">(1)</span>
 </li>
 </ul>
 </div>

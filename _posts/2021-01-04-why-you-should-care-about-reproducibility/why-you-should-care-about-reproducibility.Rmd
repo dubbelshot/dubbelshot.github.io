@@ -10,6 +10,7 @@ categories:
 creative_commons: CC BY
 output:
   distill::distill_article:
+    toc: true
     self_contained: false 
     code_folding: false
 ---
@@ -60,12 +61,7 @@ ggplot(dat) +
   scale_fill_brewer(palette="YlOrRd")  +
   scale_y_continuous(name="GDP growth",limits=c(-1.0,5.0),sec.axis=sec_axis(~.+2, name = "Inflation"))
 
-
 ```
 
 
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
